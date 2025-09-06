@@ -1,6 +1,15 @@
 这是一个基于yahoo finanace网站股票价格历史数据网页中股票价格数据提取的小程序，您只需要选择您需要的时间段，打开检查，获复制tbody元素到txt文件然后运行py文件即可导出csv文件。
+
+
+其他的文件是我取得的数据，含test的是copilot生成的测试文件，不知道为什么它读不出来单行txt文件。
+
+
 <img width="2560" height="1528" alt="image" src="https://github.com/user-attachments/assets/3626e4ab-1b14-44ca-a424-003ebbf7ceee" />
+
+
 以下是与GitHub copilot (claude sonnet 3.7) 的对话：
+
+
 accountforsignin123: 我有一些从网站上面取下来的表格代码，存储在附件的txt文件里面，你可以读取。关于股票价格的。表格对应的每一行数据存储在类似于：“<tr class="yf-1jecxey"><td class="yf-1jecxey">Sep 5, 2025</td><td class="yf-1jecxey">348.00</td><td class="yf-1jecxey">355.87</td><td class="yf-1jecxey">344.68</td><td class="yf-1jecxey">350.84</td><td class="yf-1jecxey">350.84</td><td class="yf-1jecxey">108,771,700</td>  </tr>”表示该股票在某个日期的Date
 Open
 High
